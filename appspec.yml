@@ -24,7 +24,7 @@ hooks:
     - location: deployment/start.sh
       timeout: 120
       runas: ec2-user
-   ApplicationStop:
+  ApplicationStop:
     - location: deployment/stop.sh
       timeout: 120
       runas: ec2-user
