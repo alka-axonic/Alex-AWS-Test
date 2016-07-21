@@ -99,6 +99,23 @@
     "redis": "^0.10.1",
     "redis-url": "^1.2.1",
     "replace": "^0.3.0",
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "response-time": "^2.0.0",
+    "restler": "^3.1.x",
+    "rget-jsftp": "^0.1.4",
+    "rimraf": "^2.5.1",
+    "serve-favicon": "^2.2.0",
+    "shelljs": "^0.6.0",
+    "shortid": "^2.0.1",
+    "ssl-root-cas": "^1.1.10",
+    "subdomain": "^1.0.0",
+    "tsort": "^0.0.1",
+    "url": "^0.11.0",
+    "usemin-cli": "^0.0.7",
+    "validator": "^3.40.0",
+    "watchify": "^3.7.0",
+    "winston": "^2.2.0",
+    "ws": "^0.4.31",
+    "xlsx": "^0.7.12"
   }
 }
