@@ -7,4 +7,4 @@ source ~/.bash_profile
 cd /home/ec2-user/zenkit
 
 # 2. install packages
-node server.js
+pm2 start server.js
