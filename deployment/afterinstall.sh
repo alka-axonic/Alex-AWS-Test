@@ -8,3 +8,6 @@ cd /home/ec2-user/zenkit
 
 # 3. install packages
 npm install
+npm install shelljs
+
+# 4. Get DB Endpoint

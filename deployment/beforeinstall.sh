@@ -8,4 +8,3 @@ rm -rf /home/ec2-user/zenkit
 
 # 3. install pm2
 /usr/local/bin/npm install pm2 -g
-/usr/local/bin/npm install shelljs -g
