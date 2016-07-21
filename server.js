@@ -3,7 +3,7 @@ var shelljs = require('shelljs');
 var app = express();
 
 app.get('/', function (req, res) {
-    res.send(JSON.parse(shelljs.exec('aws ec2 describe-tags')));
+    res.send(JSON.parse(shelljs.exec('aws ec2 describe-instances')));
   res.send('Hello World! from AWS!!! UHUHUU');
 });
 
