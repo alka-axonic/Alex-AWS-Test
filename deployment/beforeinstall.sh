@@ -7,4 +7,4 @@ source ~/.bash_profile
 rm -rf /home/ec2-user/zenkit
 
 # 3. install pm2
-npm install pm2 -g
+/usr/local/bin/npm install pm2 -g
