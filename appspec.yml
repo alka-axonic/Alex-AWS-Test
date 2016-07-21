@@ -1,0 +1,26 @@
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ec2-user/zenkit
+permissions:
+  - object: /home/ec2-user
+    pattern: '**'
+    owner: ec2-user
+    group: ec2-user
+    type:
+      - directory
+      - file
+hooks:
+  BeforeInstall:
+    - location: deployment/beforeinstall.sh
+      timeout: 300
+      runas: root
+  AfterInstall:
+    - location: deployment/afterinstall.sh
+      timeout: 1200
+      runas: ec2-user
+  ApplicationStart:
+    - location: deployment/start.sh
+      timeout: 120
+      runas: ec2-user
