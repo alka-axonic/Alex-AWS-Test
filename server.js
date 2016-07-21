@@ -1,5 +1,5 @@
 var express = require('express');
-var shelljs = requiere('shelljs');
+var shelljs = require('shelljs');
 var app = express();
 
 app.get('/', function (req, res) {
